@@ -1,0 +1,25 @@
+
+#export VIM="/home/steven/.config/nvim"
+export PATH="/usr/local/scala-2.13.1/bin:$PATH"
+export PATH="/usr/local/spark-3.0.1-bin-hadoop2.7/bin:$PATH"
+export PATH="/usr/local/hadoop/bin:$PATH"
+export PATH="/home/steven/.local/bin:$PATH"
+export PATH="/home/steven/scripts:$PATH"
+export PATH="/lib/postgresql/12/bin:$PATH"
+
+# HADOOP STUFF
+export HADOOP_HOME=/usr/local/hadoop 
+export HADOOP_MAPRED_HOME=$HADOOP_HOME 
+export HADOOP_COMMON_HOME=$HADOOP_HOME 
+
+export PATH=$HOME/tools/nvim-linux64/bin:$PATH
+export HADOOP_HDFS_HOME=$HADOOP_HOME 
+export YARN_HOME=$HADOOP_HOME 
+export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native 
+export PATH=$PATH:$HADOOP_HOME/sbin:$HADOOP_HOME/bin 
+export HADOOP_INSTALL=$HADOOP_HOME 
+# export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
+
+export PGDATA="/var/lib/pgsql/data"
+
+export SPARK_DATA="/home/steven/data_sets/spark_de_data/data"
