@@ -1,1 +1,0 @@
-Some standard configs etc
